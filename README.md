@@ -46,4 +46,4 @@ python Eg_model.py
 
 ## Authors
 
-This software was created by [Ya Zhuo](https://scholar.google.com/citations?user=WacJk1sAAAAJ&hl=en) who is advised by [Prof. Jakoah Brgoch](https://www.brgochchemistry.com/).
+This software was created by [Ya Zhuo](https://github.com/yzhuo33) who is advised by [Prof. Jakoah Brgoch](https://www.brgochchemistry.com/).
