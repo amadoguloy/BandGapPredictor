@@ -14,7 +14,7 @@ This package provides a machine learning model trained based on experimetally me
 
 ## Citations
 
-To cite relative permittivity and centroid shift predictions, please reference the following work:
+To cite band gap predictions, please reference the following work:
 
 Zhuo. Y, Mansouri Tehrani., and Brgoch. J, Predicting the band gaps of inorganic solids by machine learning, *J. Phys. Chem. Lett.* **2018**, 9, 1668-1673.
 
