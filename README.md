@@ -1,4 +1,4 @@
-# BandGapPredictor
+# BandGapPredictor now with GUI!
 Predict the bandgap energy for inorganic materials
 
 This package provides a machine learning model trained based on experimetally measurements to predict the bandgap energy (Eg) for inorganic materials via the command-line.
@@ -27,6 +27,7 @@ This package requires:
 - [pandas](https://pandas.pydata.org/pandas-docs/stable/index.html)
 - [NumPy](https://docs.scipy.org/doc/numpy/index.html)
 - [xlrd](https://xlrd.readthedocs.io/en/latest/index.html)
+- streamlit (edit by ASG)
 
 ## Usage
 
@@ -40,10 +41,17 @@ After preparing `to_predict.xlsx`, you can get the Eg prediction by:
 
 ```bash
 python Eg_model.py
+
+or
+
+streamlit app.py --server.port 8080 (for webbased GUI)
 ```
 
 `Eg_model.py` will automatically read `elements.xlsx`, `Training_Set.xlsx`,and `c_pounds.xlsx` to generate a prediction. A classifier will first categorize a composition into metals (Eg = 0) or nonmetals (Eg > 0), then the Eg of nonmetals will be predicted with a regressor. After running, you will get a `.xlsx` file named `predicted.xlsx` in the same directory, in which the predicted Eg is provided next to the corresponding composition.
 
+
+
 ## Authors
 
 This software was created by [Ya Zhuo](https://github.com/yzhuo33) who is advised by [Prof. Jakoah Brgoch](https://www.brgochchemistry.com/).
+GUI created by (Amado Guloy(https://github.com/amadoguloy) who is just a hobbyist coder and chemist.
