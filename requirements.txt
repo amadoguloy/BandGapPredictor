@@ -1,0 +1,6 @@
+pymatgen
+scikit-learn
+pandas
+NumPy
+xlrd
+streamlit pandas
